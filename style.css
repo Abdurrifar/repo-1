@@ -55,7 +55,7 @@ feature{
     width: 100%;
     height:500px;
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     
     border-bottom: dashed #b1c9dd;
     border-top: dashed #e1e7ed;
@@ -116,8 +116,9 @@ wrapper{
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: #f2ebeb;
+    background-color: #f9f8f8;
     padding: 50px 13px;
+    border-radius: 8px;
     
  
    
@@ -215,11 +216,25 @@ background: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
 }
-
+#skill-3:hover{
+    transform: rotate(5deg);
+    transition:  3s;
+}
+#skill:hover{
+    transform: rotate(5deg);
+    transition:  3s;
+}
+.skill:hover{
+    transform: rotate(5deg);
+    transition:  3s;
+}
 #skill-3{
     border-radius: 16px;
     background: #FFFDF2;
+   
+   
 }
+
 
  .support-container{
     background-image: linear-gradient(rgba(22, 22, 24, 0.5), rgba(26, 26, 24, 0.6)), url(images/handshake.jpg);
