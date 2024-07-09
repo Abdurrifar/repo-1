@@ -91,8 +91,9 @@ margin-top: 30px;
 
 
 animation-name: sliding;
-animation-duration:18s;
+animation-duration:1s;
 animation-play-state:running;
+animation-iteration-count: 38;
 
 
 }
@@ -100,8 +101,8 @@ animation-play-state:running;
 
 
 @keyframes sliding {
-    from {background-color: rgb(248, 23, 23);}
-    to {background-color: rgb(232, 232, 21);}
+    from {background-color: rgb(235, 18, 18);}
+    to {background-color: rgb(41, 108, 54);}
   }
 
   #feature-style button:hover {
